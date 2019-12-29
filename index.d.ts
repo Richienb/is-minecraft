@@ -1,14 +1,13 @@
 /**
- * My awesome module.
- * @param input Lorem ipsum.
- * @param postfix Lorem ipsum.
+ * Check if the current environment is a Minecraft Bedrock script.
  * @example
  * ```
- * const theModule = require("the-module");
- * theModule("unicorns");
- * //=> 'unicorns & rainbows'
+ * const isMinecraft = require("is-minecraft");
+ *
+ * isMinecraft();
+ * //=> true
  * ```
 */
-declare function theModule(input: string, { postfix }: { postfix?: string }): string;
+declare function isMinecraft(): boolean;
 
-export = theModule;
+export = isMinecraft;
