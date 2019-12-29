@@ -1,6 +1,6 @@
 {
     "name": "is-minecraft",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "Check if the current environment is a Minecraft Bedrock script.",
     "repository": "https://github.com/Richienb/is-minecraft.git",
     "author": "Richie Bendall <richiebendall@gmail.com>",
